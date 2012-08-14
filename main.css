@@ -4199,6 +4199,7 @@ a.badge:hover {
   visibility: hidden;
 }
 .masthead {
+  padding-top: 20px;
   width: 1083px;
   margin: auto;
 }
