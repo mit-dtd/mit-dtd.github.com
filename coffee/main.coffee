@@ -24,7 +24,6 @@ $(document).ready ->
   ($ '.carousel').carousel 'pause'
   
   $('.flexslider').flexslider
-    smoothHeight: true
     slideshow: false
   
   new BrothersView

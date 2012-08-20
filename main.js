@@ -37,7 +37,6 @@ BrothersView = (function(_super) {
 $(document).ready(function() {
   ($('.carousel')).carousel('pause');
   $('.flexslider').flexslider({
-    smoothHeight: true,
     slideshow: false
   });
   return new BrothersView({
