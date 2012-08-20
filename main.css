@@ -4237,13 +4237,6 @@ body {
 .rush-day td:nth-child(2) {
   width: 200px;
 }
-.chunk {
-  padding: 20px inherit;
-}
-.chunk h3 {
-  text-align: center;
-  padding-bottom: 10px;
-}
 section {
   padding-bottom: 40px;
   overflow: hidden;
@@ -4255,4 +4248,16 @@ section {
 .brothers .brother-box {
   text-align: center;
   padding: 10px;
+  cursor: pointer;
+}
+.box {
+  background: #EFEFEF;
+  padding: 40px 0;
+}
+.box .chunk {
+  padding: 20px 0;
+}
+.box .chunk h3 {
+  text-align: center;
+  padding-bottom: 10px;
 }
