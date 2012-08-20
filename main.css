@@ -4237,6 +4237,10 @@ body {
 .rush-day td:nth-child(2) {
   width: 200px;
 }
+.center-contact {
+  width: 266px;
+  margin: auto;
+}
 section {
   padding-bottom: 40px;
   overflow: hidden;
