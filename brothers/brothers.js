@@ -171,7 +171,7 @@ window.brothers = [
         "aspirations": "Goldman Sachs, PhD in physics", 
         "course": "8", 
         "hometown": "Colorado Springs, CO", 
-        "interests": "Indie music, Physics, Travel,", 
+        "interests": "Indie music, Physics, Travel", 
         "name": "Christopher Schuch", 
         "year": 2013
     }, 

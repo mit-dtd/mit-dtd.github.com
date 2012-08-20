@@ -19,13 +19,13 @@ class BrothersView extends Backbone.View
 
 
 
-$(document).ready ->
-  #we don't want the carousel automatically cycling
-  ($ '.carousel').carousel 'pause'
-  
+$(document).ready ->  
   $('.flexslider').flexslider
     slideshow: false
   
-  new BrothersView
-    el: '#bro-2012-details'
-    year: 2012 
+  for year in [2012, 2013, 2014, 2015]
+    new BrothersView
+      el: "#bro-#{year}-details"
+      year: year 
+  
+  

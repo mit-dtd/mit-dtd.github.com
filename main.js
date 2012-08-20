@@ -35,12 +35,18 @@ BrothersView = (function(_super) {
 })(Backbone.View);
 
 $(document).ready(function() {
-  ($('.carousel')).carousel('pause');
+  var year, _i, _len, _ref, _results;
   $('.flexslider').flexslider({
     slideshow: false
   });
-  return new BrothersView({
-    el: '#bro-2012-details',
-    year: 2012
-  });
+  _ref = [2012, 2013, 2014, 2015];
+  _results = [];
+  for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+    year = _ref[_i];
+    _results.push(new BrothersView({
+      el: "#bro-" + year + "-details",
+      year: year
+    }));
+  }
+  return _results;
 });
