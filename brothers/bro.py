@@ -1,3 +1,5 @@
+#Really shitty script I wrote to turn bro.txt into json
+
 import json
 keys = ['Hometown:', 'Course:', 'Year:', "Interests:", "Aspirations:"]
 
