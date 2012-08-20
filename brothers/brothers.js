@@ -12,7 +12,7 @@ window.brothers = [
         "aspirations": "Trading", 
         "course": "8", 
         "hometown": "Rancho Cucamunga", 
-        "image": "joshua_leonard-goodwill.jpg", 
+        "image": "josh_goodwill.jpg", 
         "interests": "Electro, Trance, Concerts", 
         "name": "Joshua Leonard-Goodwill", 
         "year": 2012
@@ -75,7 +75,7 @@ window.brothers = [
         "aspirations": "Multi-national charity organization", 
         "course": "2", 
         "hometown": "Omaha, NE", 
-        "image": "hank_peppe.jpg", 
+        "image": "hank_peepee.jpg", 
         "interests": "Wrestling, Live music, Donating to Locks of Love", 
         "name": "Hank Peppe", 
         "year": 2012
@@ -228,9 +228,9 @@ window.brothers = [
         "aspirations": "NASA", 
         "course": "2", 
         "hometown": "Pasadena, CA", 
-        "image": "rick_zang.jpg", 
+        "image": "rick_zhang.jpg", 
         "interests": "Indie-rock, Hipster stuff,", 
-        "name": "Rick Zang", 
+        "name": "Rick Zhang", 
         "year": 2014
     }, 
     {
@@ -282,9 +282,9 @@ window.brothers = [
         "aspirations": "Trading, Aerospace Engineering", 
         "course": "16", 
         "hometown": "San Diego, CA", 
-        "image": "brandon_lee.jpg", 
+        "image": "brandon_le.jpg", 
         "interests": "EDM, Bodyboarding, Photography, Art", 
-        "name": "Brandon Lee", 
+        "name": "Brandon Le", 
         "year": 2015
     }, 
     {
