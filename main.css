@@ -4225,7 +4225,8 @@ a.badge:hover {
 }
 .sticky-nav .nav > li > a {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 32px;
+  line-height: 40px;
 }
 .rush-day td:first-child {
   width: 100px;
