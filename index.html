@@ -318,7 +318,17 @@
               </table>
             </div>
           </div>
-          <div class="tab-pane" id="brothers"></div>
+          <div class="tab-pane" id="brothers">
+            <div class="carousel slide" id="bro-2012-carousel">
+              <div class="carousel-inner">
+                <div class="item active"><img src="http://placehold.it/960x500" alt="" /></div>
+                <div class="item" id="bro-2012-details"></div>
+              </div>
+              <a class="carousel-control left" data-target="#bro-2012-carousel" data-slide="prev">&lsaquo;</a>
+              <a class="carousel-control right" data-target="#bro-2012-carousel" data-slide="next">&rsaquo;</a>
+            </div>
+            
+          </div>
           <div class="tab-pane" id="contact">
             <p>President: <a href="mailto:pmarx@mit.edu">Patrick Marx</a></p>
             <p>Vice President: <a href="mailto:dbenhaim@mit.edu">David Benhaim</a></p>
@@ -334,12 +344,19 @@
     
   </div>
 
-
+  <script id="brother-detail-template" type="text/x-handlebars-template">
+    {{#brothers}}
+    <p>{{name}}</p>
+    {{/brothers}}
+  </script>
 
 
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="vendor/bootstrap.min.js"></script>
+  <script src="vendor/handlebars.min.js"></script>
   <script src="vendor/underscore-min.js"></script>
+  <script src="vendor/backbone-min.js"></script>
+  <script src="brothers/brothers.js"></script>
   <script src="main.js"></script>
   
 
