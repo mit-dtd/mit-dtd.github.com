@@ -99,12 +99,12 @@ window.brothers = [
         "year": 2012
     }, 
     {
-        "aspirations": "Alternative Energy", 
-        "course": "2", 
-        "hometown": "San Diego, CA", 
-        "image": "jackson_crane.jpg", 
-        "interests": "Fencing, Traveling", 
-        "name": "Jackson Crane", 
+        "aspirations": "SpaceX", 
+        "course": "16", 
+        "hometown": "Corpus Christi, TX", 
+        "image": "jason_elizalde.jpg", 
+        "interests": "Ice cream, EDM, Concerts", 
+        "name": "Jason Elizalde", 
         "year": 2013
     }, 
     {
@@ -171,12 +171,12 @@ window.brothers = [
         "year": 2013
     }, 
     {
-        "aspirations": "SpaceX", 
-        "course": "16", 
-        "hometown": "Corpus Christi, TX", 
-        "image": "jason_elizalde.jpg", 
-        "interests": "Ice cream, EDM, Concerts", 
-        "name": "Jason Elizalde", 
+        "aspirations": "Alternative Energy", 
+        "course": "2", 
+        "hometown": "San Diego, CA", 
+        "image": "jackson_crane.jpg", 
+        "interests": "Fencing, Traveling", 
+        "name": "Jackson Crane", 
         "year": 2013
     }, 
     {
@@ -282,9 +282,9 @@ window.brothers = [
         "aspirations": "Trading, Aerospace Engineering", 
         "course": "16", 
         "hometown": "San Diego, CA", 
-        "image": "brandon_le.jpg", 
+        "image": "brandon_lee.jpg", 
         "interests": "EDM, Bodyboarding, Photography, Art", 
-        "name": "Brandon Le", 
+        "name": "Brandon Lee", 
         "year": 2015
     }, 
     {
