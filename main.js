@@ -36,6 +36,10 @@ BrothersView = (function(_super) {
 
 $(document).ready(function() {
   ($('.carousel')).carousel('pause');
+  $('.flexslider').flexslider({
+    smoothHeight: true,
+    slideshow: false
+  });
   return new BrothersView({
     el: '#bro-2012-details',
     year: 2012

@@ -23,6 +23,10 @@ $(document).ready ->
   #we don't want the carousel automatically cycling
   ($ '.carousel').carousel 'pause'
   
+  $('.flexslider').flexslider
+    smoothHeight: true
+    slideshow: false
+  
   new BrothersView
     el: '#bro-2012-details'
     year: 2012 

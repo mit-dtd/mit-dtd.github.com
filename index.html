@@ -22,6 +22,7 @@
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
 
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="vendor/flexslider.css">
 
 
 
@@ -58,10 +59,10 @@
               <div class="page-header">
                 <h1>Academics <small>Delta Tau Delta has a record for some of the most talented brothers in academics.</small></h1>
               </div>
-              <div class="carousel slide" id="academics-carousel">
-                <div class="carousel-inner">
-                  <div class="item active"><img src="http://placehold.it/960x500" alt="" /></div>
-                  <div class="item">
+              <div class="flexslider" id="academics-carousel">
+                <ul class="slides">
+                  <li><img src="http://placehold.it/960x500" alt="" /></li>
+                  <li>
                     
                     <!-- Coursework -->
                     <div class="row chunk">
@@ -99,11 +100,10 @@
                     </div>
                     <br />
                     
-                  </div>
-                  <div class="item"><img src="http://placehold.it/960x500" alt="" /></div>
-                </div>
-                <a class="carousel-control left" data-target="#academics-carousel" data-slide="prev">&lsaquo;</a>
-                <a class="carousel-control right" data-target="#academics-carousel" data-slide="next">&rsaquo;</a>
+                  </li>
+                  <li><img src="http://placehold.it/960x500" alt="" /></li>
+                </ul>
+                
               </div>
             </section>
             
@@ -112,9 +112,9 @@
               <div class="page-header">
                 <h1>Social <small>We boast a lively social program with large parties, sorority mixers, cocktail nights, and a formal.</small></h1>
               </div>
-              <div class="carousel slide" id="social-carousel">
-                <div class="carousel-inner">
-                  <div class="item active">
+              <div class="flexslider" id="social-carousel">
+                <div class="slides">
+                  <li>
                     
                     <!-- Sick Bashes -->
                     <div class="row chunk">
@@ -166,12 +166,11 @@
                     </div>
                     <br />
                     
-                  </div>
-                  <div class="item"><img src="http://placehold.it/960x500" alt="" /></div>
-                  <div class="item"><img src="http://placehold.it/960x500" alt="" /></div>
+                  </li>
+                  <li><img src="http://placehold.it/960x500" alt="" /></li>
+                  <li><img src="http://placehold.it/960x500" alt="" /></li>
                 </div>
-                <a class="carousel-control left" data-target="#social-carousel" data-slide="prev">&lsaquo;</a>
-                <a class="carousel-control right" data-target="#social-carousel" data-slide="next">&rsaquo;</a>
+                
               </div>
             </section>
             
@@ -180,9 +179,9 @@
               <div class="page-header">
                 <h1>Sports <small>Delts Athletics have been notorious for being team-leading, hard-working.</small></h1>
               </div>
-              <div class="carousel slide" id="sports-carousel">
-                <div class="carousel-inner">
-                  <div class="item active">
+              <div class="flexslider" id="sports-carousel">
+                <ul class="slides">
+                  <li>
                     <!-- Sports -->
                     <div class="row chunk">
                       <div class="span5 offset1">
@@ -207,12 +206,11 @@
                       </div>
                     </div>
                     <br />
-                  </div>
-                  <div class="item"><img src="http://placehold.it/960x500" alt="" /></div>
-                  <div class="item"><img src="http://placehold.it/960x500" alt="" /></div>
-                </div>
-                <a class="carousel-control left" data-target="#sports-carousel" data-slide="prev">&lsaquo;</a>
-                <a class="carousel-control right" data-target="#sports-carousel" data-slide="next">&rsaquo;</a>
+                  </li>
+                  <li><img src="http://placehold.it/960x500" alt="" /></li>
+                  <li><img src="http://placehold.it/960x500" alt="" /></li>
+                </ul>
+                
               </div>
             </section>
             
@@ -356,6 +354,7 @@
   <script src="vendor/handlebars.min.js"></script>
   <script src="vendor/underscore-min.js"></script>
   <script src="vendor/backbone-min.js"></script>
+  <script src="vendor/jquery.flexslider-min.js"></script>
   <script src="brothers/brothers.js"></script>
   <script src="main.js"></script>
   
