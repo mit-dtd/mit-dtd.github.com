@@ -416,9 +416,9 @@ h6 {
   text-transform: uppercase;
 }
 .page-header {
-  padding-bottom: 17px;
+  padding-top: 17px;
   margin: 18px 0;
-  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
 }
 .page-header h1 {
   line-height: 1;
@@ -2678,8 +2678,7 @@ input[type="submit"].btn.btn-mini {
   display: block;
 }
 .nav > li > a:hover {
-  text-decoration: none;
-  background-color: #eeeeee;
+  text-decoration: underline;
 }
 .nav > .pull-right {
   float: right;
@@ -2732,6 +2731,8 @@ input[type="submit"].btn.btn-mini {
 .nav-tabs,
 .nav-pills {
   *zoom: 1;
+  border-bottom: 1px solid #a6a6a6;
+  border-top: 1px solid #a6a6a6;
 }
 .nav-tabs:before,
 .nav-pills:before,
@@ -2792,9 +2793,11 @@ input[type="submit"].btn.btn-mini {
 }
 .nav-pills > .active > a,
 .nav-pills > .active > a:hover {
-  color: #ffffff;
-  background-color: #0088cc;
+  color: #a6a6a6;
+  text-decoration: underline;
+  outline: 0;
 }
+
 .nav-stacked > li {
   float: none;
 }
@@ -3759,8 +3762,9 @@ input[type="submit"].btn.btn-mini {
 }
 .thumbnail {
   display: block;
-  padding: 4px;
   line-height: 1;
+  height: 150px;
+  overflow: hidden;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
@@ -4199,7 +4203,7 @@ a.badge:hover {
   visibility: hidden;
 }
 body {
-  background: #EFEFEF;
+  background: #FFFFFF;
 }
 .masthead {
   padding-top: 20px;
@@ -4213,9 +4217,13 @@ body {
   user-select: none;
   cursor: default;
 }
+.masthead .bracket {
+  font-weight: normal;
+  vertical-align: 12%;
+}
 .masthead h6 {
   text-align: right;
-  margin-right: 113px;
+  margin-right: 165px;
 }
 .masthead h1 {
   font-size: 400px;
@@ -4224,10 +4232,17 @@ body {
 }
 .sticky-nav {
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.sticky-nav > div {
+  display: inline-block;
+  margin: 0px auto;
+  float: none;
+  width: auto;
 }
 .sticky-nav .nav > li > a {
-  font-weight: bold;
+  color: #a6a6a6;
   font-size: 32px;
   line-height: 40px;
 }
@@ -4236,10 +4251,6 @@ body {
 }
 .rush-day td:nth-child(2) {
   width: 200px;
-}
-.center-contact {
-  width: 266px;
-  margin: auto;
 }
 section {
   padding-bottom: 40px;
@@ -4255,12 +4266,73 @@ section {
   cursor: pointer;
 }
 .box {
-  padding: 40px 0;
+  padding: 0;
 }
 .box .chunk {
   padding: 20px 0;
 }
 .box .chunk h3 {
-  text-align: center;
   padding-bottom: 10px;
+}
+
+.tagline {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.tagline h1 {
+  font-weight: normal;
+}
+
+.flexslider {
+  border: none;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+
+.calendar {
+  color: #a6a6a6;
+  font-size: 13px;
+  width: 100%;
+}
+
+.calendar th, .calendar td {
+  border-left: 1px solid #a6a6a6;
+  width: 14.2857%;
+  vertical-align: top;
+}
+
+.calendar th {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+.calendar th.first, .calendar td.first {
+  border-left: none;
+}
+
+.calendar tr {
+  border-bottom: 1px solid #a6a6a6;
+}
+
+.calendar tr.last {
+  border-bottom: none;
+}
+
+.calendar ul {
+  list-style-type: none;
+}
+
+.calendar ul li {
+  margin-left: 8px;
+  text-indent: -8px;
+}
+
+.calendar ul li:before {
+  content: "- ";
+}
+
+.calendar td > ul {
+  margin-left: 5px;
 }

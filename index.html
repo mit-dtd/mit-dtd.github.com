@@ -20,10 +20,9 @@
   <meta name="viewport" content="width=device-width">
 
   <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
-
-  <link rel="stylesheet" href="main.css">
   <link rel="stylesheet" href="vendor/flexslider.css">
   <link href="vendor/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
 
 
 
@@ -33,7 +32,7 @@
        chromium.org/developers/how-tos/chrome-frame-getting-started -->
   <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->
   <div class="masthead">
-    <h1 id="main-logo">[&Delta;&Tau;&Delta;]</h1>
+    <h1 id="main-logo"><span class="bracket">[</span>&Delta;&Tau;&Delta;<span class="bracket">]</span></h1>
     <h6>MIT Chapter Beta Nu</h6>
   </div>
   
@@ -42,9 +41,9 @@
     <div class="sticky-nav row" id="navbar">
       <div class="span8 offset2">
         <ul class="nav nav-pills">
-          <li class="active"><a href="#about" data-toggle="tab">About</a></li>
-          <li><a href="#rush" data-toggle="tab">Rush 2012</a></li>
+          <li><a href="#about" data-toggle="tab">About</a></li>
           <li><a href="#brothers" data-toggle="tab">Brothers</a></li>
+          <li><a href="#rush" data-toggle="tab">Rush 2012</a></li>
           <li><a href="#contact" data-toggle="tab">Contact</a></li>
         </ul>
       </div>
@@ -52,8 +51,11 @@
 
     <div class="tab-content">
           <!-- About -->
-          <div class="tab-pane active" id="about">
-
+          <div class="tab-pane" id="about">
+          <div class="tagline">
+            <h1><strong>Delta</strong>tau<strong>delta</strong> is an MIT fraternity located at 416 Beacon St.</h1>
+            <p>On the Boston side, our brownstone home is less than a mile, or 945.67 Smoots, to MIT's main campus.</p>
+          </div>
             <!-- Academics -->
             <section>
               <div class="page-header">
@@ -61,29 +63,29 @@
               </div>
               <div class="flexslider" id="academics-carousel">
                 <ul class="slides">
-                  <li><img src="/images/academic_mac.jpg" alt="" /></li>
+                  <li><img src="images/academic_mac.jpg" alt="" /></li>
                   <li>
                     <div class="box">
                       <!-- Coursework -->
                       <div class="row chunk">
-                        <div class="span5 offset1">
+                        <div class="span6">
                           <h3>Coursework is a priority to us.</h3>
                           <p>Here at Delta Tau Delta, we recognize that we’re here at MIT to, first and foremost, learn and grow. Our academics are of high importance and we’re proud to harbor highly talented and intelligent brothers who go on to become the greatest they can be. With brothers who span across 12 different majors, Delta Tau Delta is a diverse group of intellects that know how to take their work seriously.</p>
                         </div>
                         <div class="span5 thumbnail">
-                          <img src="/images/academic_mac.jpg" alt="" />
+                          <img src="images/academic_mac.jpg" alt="" />
                         </div>
                       </div>
                       <br />
                     
                       <!-- Course Libraries -->
                       <div class="row chunk">
-                        <div class="span5 offset1">
+                        <div class="span5">
                           <div class="thumbnail">
                             <img src="images/academic_george.jpg" alt="" />
                           </div>
                         </div>
-                        <div class="span5">
+                        <div class="span6">
                           <h3>Course Libraries</h3>
                           <p>Over the years, brothers and alumni of Delta Tau Delta have always supported each other in their coursework. A library of course content, notes, and texts have been accumulated over the decades. These allow every brother a glimpse into how past brothers have succeeded academically during their time here at MIT. Our Course Library also contains the schedules of past brothers and suggestions by graduated seniors who would like to pass on their own personal skills to all present and future brothers. </p>
                         </div>
@@ -92,7 +94,7 @@
                     
                       <!-- Academic tutors -->
                       <div class="row chunk">
-                        <div class="span5 offset1">
+                        <div class="span6">
                           <h3>Academic tutors</h3>
                           <p>Brothers who know their course materials inside and out, are elected to provide an academic support system for underclassmen. This ensures that each brother has the resources necessary to fully understand their courses. Brothers are held to high academic standards, and are encouraged to take full advantage of the expertise of upperclassmen who have recently completed similar coursework.</p>
                         </div>
@@ -122,7 +124,7 @@
                     <div class="box">
                       <!-- Sick Bashes -->
                       <div class="row chunk">
-                        <div class="span5 offset1">
+                        <div class="span6">
                           <h3>Sick Bashes</h3>
                           <p>These are our largest parties, which attract students from MIT, BU, Northeastern, Wellesley, Tufts, and several others. Each party has a theme that makes for a great time. Beach party, Toga, Grog, Graveyard, and Goldfish are some of the best parties in Boston. Don’t just take our word for it - ask around and you’ll hear stories. These parties are where true college memories are created. Dress to theme and don’t miss out.</p>
                         </div>
@@ -134,10 +136,10 @@
                     
                       <!-- Cocktail Parties -->
                       <div class="row chunk">
-                        <div class="span5 offset1 thumbnail">
-                          <img src="/images/cocktail.jpg" alt="" />
+                        <div class="span5 thumbnail">
+                          <img src="images/cocktail.jpg" alt="" />
                         </div>
-                        <div class="span5">
+                        <div class="span6">
                           <h3>Cocktail Parties</h3>
                           <p>This is where we get fancy. Once in a while we host an invite-only cocktail party on our beautiful roof deck. They are more relaxing and quaint than the bigger parties, but debatably more fun. We hire a live Berklee jazz band to truly set the mood. Shirt and tie are mandatory for guys, and dresses mandatory for girls.</p>
 
@@ -147,22 +149,22 @@
                     
                       <!-- Mixers -->
                       <div class="row chunk">
-                        <div class="span5 offset1">
+                        <div class="span6">
                           <h3>Mixers</h3>
                           <p>Mixers are smaller parties with a single sorority. Delts have great relationships with sororities from MIT and other schools throughout Boston. To keep these relations up, we host a variety of sorority mixers each semester, each with a different feel, set-up, and theme. We use mixers to get to know the girls more personally.</p>
                         </div>
                         <div class="span5 thumbnail">
-                          <img src="/images/mixers.jpg" alt="" />
+                          <img src="images/mixers.jpg" alt="" />
                         </div>
                       </div>
                       <br />
                     
                       <!-- Formal -->
                       <div class="row chunk">
-                        <div class="span5 offset1 thumbnail">
+                        <div class="span5 thumbnail">
                           <img src="images/formal.jpg" alt="" />
                         </div>
-                        <div class="span5">
+                        <div class="span6">
                           <h3>Formal</h3>
                           <p>Formal is another place where we get fancy. Once a semester, we spare no expense on Formal. Examples of past Formals are harbor cruises, dinners at the Top of the Hub, Blue Man Group outings, comedy club shows, and private dinners in the North End. Usually the night continues with ice-skating on frog pond or dessert at the Cheesecake Factory.</p>
 
@@ -184,7 +186,7 @@
               </div>
               <div class="flexslider" id="sports-carousel">
                 <ul class="slides">
-                  <li><img src="/images/sports_rowing.jpg" alt="" /></li>
+                  <li><img src="images/sports_rowing.jpg" alt="" /></li>
                   <li>
                     <div class="box">
                       <!-- Sports -->
@@ -194,16 +196,16 @@
                           <p>We have a diverse group of athletes who excel at their respective sports. Brothers participate in track, swimming, diving, crew, baseball, soccer, football, fencing, and lacrosse. Several brothers have even been team leaders in their sports. Whatever the activity may be, Delts has been known to put in the most rigorous efforts to be the best they can be.</p>
                         </div>
                         <div class="span5 thumbnail">
-                          <img src="/images/pat_600_2.jpeg" alt="" />
+                          <img src="images/pat_600_2.jpeg" alt="" />
                         </div>
                       </div>
                       <br />
                       <!-- Intramural -->
                       <div class="row chunk">
-                        <div class="span5 offset1 thumbnail">
-                          <img src="/images/intramural.jpg" alt="" />
+                        <div class="span5 thumbnail">
+                          <img src="images/intramural.jpg" alt="" />
                         </div>
-                        <div class="span5">
+                        <div class="span6">
                           <h3>Intramural</h3>
                           <p>Intramural Sports, sports played against other teams within the school, are also a big part of Delts athletics. Our favorites are ultimate frisbee, indoor soccer, bowling, softball, and football. Our team almost always signs up for league A participation, which is the most competitive league possible.</p>
 
@@ -218,8 +220,93 @@
             </section>
             
           </div>
+          <div class="tab-pane" id="brothers">
+            <div class="tagline">
+              <h1><strong>Delta</strong>tau<strong>delta</strong> has 34 active brothers from 21 different states.</h1>
+              <p>Delts are a talented, diverse group of brothers who make us more than just a fraternity.</p>
+            </div>
+            <section>
+              <div class="page-header">
+                <h1>2012</h1>
+              </div>
+              <div class="flexslider" id="bro-2012-carousel">
+                <ul class="slides">
+                  <li><img src="images/2012s.jpg" alt="" /></li>
+                  <li>
+                    <div class="row" id="bro-2012-details"></div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            
+            <section>
+              <div class="page-header">
+                <h1>2013</h1>
+              </div>
+              <div class="flexslider" id="bro-2013-carousel">
+                <ul class="slides">
+                  <li><img src="images/2013s.jpg" alt="" /></li>
+                  <li>
+                    <div class="row" id="bro-2013-details"></div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            
+            <section>
+              <div class="page-header">
+                <h1>2014</h1>
+              </div>
+              <div class="flexslider" id="bro-2014-carousel">
+                <ul class="slides">
+                  <li><img src="images/2014s.jpg" alt="" /></li>
+                  <li>
+                    <div class="row" id="bro-2014-details"></div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            
+            <section>
+              <div class="page-header">
+                <h1>2015</h1>
+              </div>
+              <div class="flexslider" id="bro-2015-carousel">
+                <ul class="slides">
+                  <li><img src="images/2015s.jpg" alt="" /></li>
+                  <li>
+                    <div class="row" id="bro-2015-details"></div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+
           <!-- Rush -->
           <div class="tab-pane" id="rush">
+            <div class="tagline">
+              <h1><strong>Delta</strong>tau<strong>delta</strong> holds rush at the beginning of every fall semester.</h1>
+              <p>Come get to know the brothers as we show you Boston like you've never experienced it before &ndash; Delts-style.</p>
+            </div>
+            <table class="calendar">
+              <thead>
+                <tr><th class="first">s</th><th>m</th><th>t</th><th>w</th><th>t</th><th>f</th><th>s</th></tr>
+              </thead>
+              <tbody>
+                <tr><td class="first"></td><td></td><td></td><td></td><td></td><td></td>
+                <!--Saturday-->
+                <td><ul><li>Rooftop BBQ<ul><li>12:15-3:00pm</li></ul><li>Delts' Entrepreneurs<ul><li>4:00-7:00pm</li></ul></li><li>Thanksgiving Dinner<ul><li>6:00pm</li></ul></li></ul></td></tr>
+                <tr class="last">
+                <!--Sunday-->
+                <td class="first"><ul><li>Beach trip and jet skiing<ul><li>10am</li></ul></li><li>&Delta;&Tau;&Delta; Beach Party<ul><li>10pm</li></ul></li></ul></td>
+                <!--Monday-->
+                <td><ul><li>Lobster Trip<ul><li>11am</li></ul></li></ul></td>
+                <!--Tuesday-->
+                <td><ul><li>Bowling and Billiards<ul><li>1pm</li></ul></li><li>Steak and Sushi<ul><li>6pm</li></ul></li><li>F1 Go-Karting<ul><li>7:30pm</li></ul></li></ul></td>
+                <!--Wednesday-->
+                <td><ul><li>Lunch at Student Center<ul><li>12-2:30pm</li></ul></li><li>Wahlburger Dinner<ul><li>6pm</li></ul></li></ul></td><td></td><td></td><td></td></tr>
+              </tbody>
+            </table>
             <div class="rush-day">
               <h1>Saturday</h1>
               <table class="table">
@@ -320,72 +407,24 @@
               </table>
             </div>
           </div>
-          <div class="tab-pane" id="brothers">
-            <section>
-              <div class="page-header">
-                <h1>2012</h1>
-              </div>
-              <div class="flexslider" id="bro-2012-carousel">
-                <ul class="slides">
-                  <li><img src="/images/2012s.jpg" alt="" /></li>
-                  <li>
-                    <div class="row" id="bro-2012-details"></div>
-                  </li>
-                </ul>
-              </div>
-            </section>
-            
-            <section>
-              <div class="page-header">
-                <h1>2013</h1>
-              </div>
-              <div class="flexslider" id="bro-2013-carousel">
-                <ul class="slides">
-                  <li><img src="/images/2013s.jpg" alt="" /></li>
-                  <li>
-                    <div class="row" id="bro-2013-details"></div>
-                  </li>
-                </ul>
-              </div>
-            </section>
-            
-            <section>
-              <div class="page-header">
-                <h1>2014</h1>
-              </div>
-              <div class="flexslider" id="bro-2014-carousel">
-                <ul class="slides">
-                  <li><img src="/images/2014s.jpg" alt="" /></li>
-                  <li>
-                    <div class="row" id="bro-2014-details"></div>
-                  </li>
-                </ul>
-              </div>
-            </section>
-            
-            <section>
-              <div class="page-header">
-                <h1>2015</h1>
-              </div>
-              <div class="flexslider" id="bro-2015-carousel">
-                <ul class="slides">
-                  <li><img src="/images/2015s.jpg" alt="" /></li>
-                  <li>
-                    <div class="row" id="bro-2015-details"></div>
-                  </li>
-                </ul>
-              </div>
-            </section>
-            
-            
-          </div>
+
           <div class="tab-pane" id="contact">
-            <div class="center-contact">
-              <p>President: <a href="mailto:pmarx@mit.edu">Patrick Marx</a></p>
-              <p>Vice President: <a href="mailto:dbenhaim@mit.edu">David Benhaim</a></p>
-              <p>Rush Chair: <a href="mailto:cstahl@mit.edu">Charles Stahl</a></p>
-              <p>Summer House Manager: <a href="mailto:dbenhaim@mit.edu">David Benhaim</a></p>             
+            <div class="tagline">
+              <h1><strong>Delta</strong>tau<strong>delta</strong> can be contacted at any time.</h1>
+              <p>Want to know the brothers better?</p>
             </div>
+            <section>
+              <div class="page-header">
+                <p>General inquiries: <a href="mailto:deltataudelta@mit.edu">deltataudelta@mit.edu</a></p>
+                <br />
+                <p>President: <a href="mailto:pmarx@mit.edu">Patrick Marx</a></p>
+                <p>Vice President: <a href="mailto:dbenhaim@mit.edu">David Benhaim</a></p>
+                <p>Rush Chair: <a href="mailto:cstahl@mit.edu">Charles Stahl</a></p>
+                <p>Summer House Manager: <a href="mailto:dbenhaim@mit.edu">David Benhaim</a></p>
+                <br />
+                <p>Visit us at: 416 Beacon Street, Boston, MA</p>
+              </div>
+            </section>
           </div>
         </div>
 
@@ -399,8 +438,8 @@
   <ul class="thumbnails brothers">
     {{#brothers}}
     <li class="span3 brother-box">
-      <a href="/brothers/img/{{image}}" class="thumbnail" rel="lightbox[{{year}}]" title="<h5>{{name}}</h5><dl class='dl-horizontal'><dt>Course</dt><dd>{{course}}</dd><dt>Hometown</dt><dd>{{hometown}}</dd><dt>Interests</dt><dd>{{interests}}</dd><dt>Aspirations</dt><dd>{{aspirations}}</dd></dl>">
-        <img src="/brothers/img/{{image}}" alt="{{name}}"/>
+      <a href="brothers/img/{{image}}" class="thumbnail" rel="lightbox[{{year}}]" title="<h5>{{name}}</h5><dl class='dl-horizontal'><dt>Course</dt><dd>{{course}}</dd><dt>Hometown</dt><dd>{{hometown}}</dd><dt>Interests</dt><dd>{{interests}}</dd><dt>Aspirations</dt><dd>{{aspirations}}</dd></dl>">
+        <img src="brothers/img/{{image}}" alt="{{name}}" style="width: {{zoom}}px; max-width: {{zoom}}px; margin-left: {{left}}px; margin-top: {{top}}px;" />
         
       </a>
       <p>{{name}}</p>
@@ -412,7 +451,7 @@
   </script>
   
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="vendor/bootstrap.min.js"></script>
   <script src="vendor/handlebars.min.js"></script>
   <script src="vendor/underscore-min.js"></script>

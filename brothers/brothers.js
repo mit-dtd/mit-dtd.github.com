@@ -6,7 +6,10 @@ window.brothers = [
         "image": "nick_swenson.jpg", 
         "interests": "Golf, P. Diddy", 
         "name": "Nick Swenson", 
-        "year": 2012
+        "year": 2012,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "Trading", 
@@ -15,7 +18,10 @@ window.brothers = [
         "image": "josh_goodwill.jpg", 
         "interests": "Electro, Trance, Concerts", 
         "name": "Joshua Leonard-Goodwill", 
-        "year": 2012
+        "year": 2012,
+        "left": 0,
+        "top": -50,
+        "zoom": 220
     }, 
     {
         "aspirations": "Tesla Motors Engineer", 
@@ -24,7 +30,10 @@ window.brothers = [
         "image": "adam_delton.jpg", 
         "interests": "Electro, Dubstep, DJing", 
         "name": "Adam Delton", 
-        "year": 2012
+        "year": 2012,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "Bain and Co. Consulting, Private Equity", 
@@ -33,7 +42,10 @@ window.brothers = [
         "image": "stephen_goodman.jpg", 
         "interests": "Lead-Singer of Transit Gloria", 
         "name": "Stephen Goodman", 
-        "year": 2012
+        "year": 2012,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "Rest Devices Startup", 
@@ -42,7 +54,10 @@ window.brothers = [
         "image": "chao_he.jpg", 
         "interests": "Diving, Swimming, Krillin", 
         "name": "Chao He", 
-        "year": 2012
+        "year": 2012,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "Biomedical Engineering", 
@@ -51,7 +66,10 @@ window.brothers = [
         "image": "colin_reisterer.jpg", 
         "interests": "Snowboarding, Cycling", 
         "name": "Colin Reisterer", 
-        "year": 2012
+        "year": 2012,
+        "left": -80,
+        "top": 0,
+        "zoom": 300
     }, 
     {
         "aspirations": "Pelton & Crane Engineer", 
@@ -60,8 +78,11 @@ window.brothers = [
         "image": "michael_bickers.jpg", 
         "interests": "Lacrosse, Golf", 
         "name": "Michael Bickers", 
-        "year": 2012
-    }, 
+        "year": 2012,
+        "left": -75,
+        "top": -95,
+        "zoom": 300
+    },
     {
         "aspirations": "Quora, Facebook developer", 
         "course": "6", 
@@ -69,7 +90,10 @@ window.brothers = [
         "image": "neel_hajare.jpg", 
         "interests": "Coding, Developing", 
         "name": "Neel Hajare", 
-        "year": 2012
+        "year": 2012,
+        "left": 0,
+        "top": 0,
+        "zoom": 240
     }, 
     {
         "aspirations": "Multi-national charity organization", 
@@ -78,7 +102,10 @@ window.brothers = [
         "image": "hank_peepee.jpg", 
         "interests": "Wrestling, Live music, Donating to Locks of Love", 
         "name": "Hank Peppe", 
-        "year": 2012
+        "year": 2012,
+        "left": 0,
+        "top": -40,
+        "zoom": 220
     }, 
     {
         "aspirations": "Risk Management Banking at Bank of America", 
@@ -87,7 +114,10 @@ window.brothers = [
         "image": "trace_sauter.jpg", 
         "interests": "Bowties, cycling, swimming, and economics", 
         "name": "Trace Sauter", 
-        "year": 2012
+        "year": 2012,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "Materials Selection & Product Development", 
@@ -96,7 +126,10 @@ window.brothers = [
         "image": "brian_wee.jpg", 
         "interests": "Kinesiology, A Cappella, Tennis", 
         "name": "Brian Wee", 
-        "year": 2012
+        "year": 2012,
+        "left": -20,
+        "top": 0,
+        "zoom": 280
     }, 
     {
         "aspirations": "SpaceX", 
@@ -105,7 +138,10 @@ window.brothers = [
         "image": "jason_elizalde.jpg", 
         "interests": "Ice cream, EDM, Concerts", 
         "name": "Jason Elizalde", 
-        "year": 2013
+        "year": 2013,
+        "left": 0,
+        "top": -65,
+        "zoom": 220
     }, 
     {
         "aspirations": "Google, or Startup", 
@@ -114,7 +150,10 @@ window.brothers = [
         "image": "pat_marx.jpg", 
         "interests": "Electro", 
         "name": "Pat Marx", 
-        "year": 2013
+        "year": 2013,
+        "left": 0,
+        "top": -40,
+        "zoom": 220
     }, 
     {
         "aspirations": "Software", 
@@ -123,7 +162,10 @@ window.brothers = [
         "image": "albert_rodenius.jpg", 
         "interests": "EDM, Technology", 
         "name": "Albert Rodenius", 
-        "year": 2013
+        "year": 2013,
+        "left": -25,
+        "top": -50,
+        "zoom": 360
     }, 
     {
         "aspirations": "Research", 
@@ -132,7 +174,10 @@ window.brothers = [
         "image": "charles_huang.jpg", 
         "interests": "EDM, Concerts, Philosophy", 
         "name": "Charles Huang", 
-        "year": 2013
+        "year": 2013,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "Alternative energy", 
@@ -141,7 +186,10 @@ window.brothers = [
         "image": "scott_jenkins.jpg", 
         "interests": "Soccer, MIT Energy Club,", 
         "name": "Scott Jenkins", 
-        "year": 2013
+        "year": 2013,
+        "left": 0,
+        "top": -20,
+        "zoom": 220
     }, 
     {
         "aspirations": "Web developer", 
@@ -150,7 +198,10 @@ window.brothers = [
         "image": "george_erickson.jpg", 
         "interests": "Web developing, Sriracha sauce", 
         "name": "George Erickson", 
-        "year": 2013
+        "year": 2013,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "SpaceX, build/design machines that go really fast", 
@@ -159,7 +210,10 @@ window.brothers = [
         "image": "alex_teuffer.jpg", 
         "interests": "LA disco, French electro, German techno, British rock, info art", 
         "name": "Alex Teuffer Pando", 
-        "year": 2013
+        "year": 2013,
+        "left": 0,
+        "top": -25,
+        "zoom": 220
     }, 
     {
         "aspirations": "To become the next Queen", 
@@ -168,7 +222,10 @@ window.brothers = [
         "image": "jack_newman.jpg", 
         "interests": "Being British, Mate", 
         "name": "Jack Newman", 
-        "year": 2013
+        "year": 2013,
+        "left": 0,
+        "top": -100,
+        "zoom": 220
     }, 
     {
         "aspirations": "Alternative Energy", 
@@ -177,7 +234,10 @@ window.brothers = [
         "image": "jackson_crane.jpg", 
         "interests": "Fencing, Traveling", 
         "name": "Jackson Crane", 
-        "year": 2013
+        "year": 2013,
+        "left": 0,
+        "top": -10,
+        "zoom": 220
     }, 
     {
         "aspirations": "Raytheon Engineer", 
@@ -186,7 +246,10 @@ window.brothers = [
         "image": "david_benhaim.jpg", 
         "interests": "Robots, Rock", 
         "name": "David Benhaim", 
-        "year": 2013
+        "year": 2013,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "Goldman Sachs, PhD in physics", 
@@ -195,8 +258,23 @@ window.brothers = [
         "image": "chris_schuch.jpg", 
         "interests": "Indie music, Physics, Travel", 
         "name": "Christopher Schuch", 
-        "year": 2013
-    }, 
+        "year": 2013,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
+    },
+    {
+        "aspirations": "Management consultant for the music industry",
+        "course": "15",
+        "hometown": "San Diego, CA",
+        "image": "chas_stahl.jpg",
+        "interests": "Rap music, Writing lyrics, Baseball, Dance, Networking, Business",
+        "name": "Chas Stahl",
+        "year": 2013,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
+    },
     {
         "aspirations": "Materials research", 
         "course": "3", 
@@ -204,16 +282,22 @@ window.brothers = [
         "image": "max_powers.jpg", 
         "interests": "Football, Sign language, History", 
         "name": "Max Powers", 
-        "year": 2014
+        "year": 2014,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
-        "aspirations": "Google", 
+        "aspirations": "Saving the world", 
         "course": "6", 
         "hometown": "New York City", 
         "image": "charlie_gordon.jpg", 
-        "interests": "Computers, Open-sourceware, Politics, Soccer", 
+        "interests": "Computers, Open source software, Politics, Soccer", 
         "name": "Charlie Gordon", 
-        "year": 2014
+        "year": 2014,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "Chemical Engineering, Pharmaceutical Engineering", 
@@ -222,16 +306,22 @@ window.brothers = [
         "image": "kevin_clayton.jpg", 
         "interests": "Football, Music", 
         "name": "Kevin Clayton", 
-        "year": 2014
+        "year": 2014,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "NASA", 
         "course": "2", 
         "hometown": "Pasadena, CA", 
-        "image": "rick_zhang.jpg", 
-        "interests": "Indie-rock, Hipster stuff,", 
-        "name": "Rick Zhang", 
-        "year": 2014
+        "image": "rick_zang.jpg", 
+        "interests": "Indie-rock, Hipster stuff", 
+        "name": "Rick Zang", 
+        "year": 2014,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "Materials Engineering, Start a company", 
@@ -240,7 +330,10 @@ window.brothers = [
         "image": "mac_gager.jpg", 
         "interests": "Track, Renewable Energy, Outdoorsy stuff", 
         "name": "Mac Gager", 
-        "year": 2014
+        "year": 2014,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "Management Consulting, Venture capitalism, Be a live audience member at SNL", 
@@ -249,7 +342,10 @@ window.brothers = [
         "image": "zev_bimstein.jpg", 
         "interests": "Magnets, Playing night crawlers, Skitchin\u2019", 
         "name": "Zev Bimstein", 
-        "year": 2015
+        "year": 2015,
+        "left": 0,
+        "top": -60,
+        "zoom": 220
     }, 
     {
         "aspirations": "Carbon nano-tube engineering", 
@@ -258,7 +354,10 @@ window.brothers = [
         "image": "mikey_suglian.jpg", 
         "interests": "Skiing, EDM", 
         "name": "Mikey Suglian", 
-        "year": 2015
+        "year": 2015,
+        "left": 0,
+        "top": -36,
+        "zoom": 220
     }, 
     {
         "aspirations": "Materials Engineer", 
@@ -267,7 +366,10 @@ window.brothers = [
         "image": "jasper_lienhard.jpg", 
         "interests": "EDM, Piano", 
         "name": "Jasper Lienhard", 
-        "year": 2015
+        "year": 2015,
+        "left": 0,
+        "top": -10,
+        "zoom": 220
     }, 
     {
         "aspirations": "Coder for Apple", 
@@ -276,7 +378,10 @@ window.brothers = [
         "image": "chris_kim.jpg", 
         "interests": "Crew, Coding", 
         "name": "Chris Kim", 
-        "year": 2015
+        "year": 2015,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
     }, 
     {
         "aspirations": "Trading, Aerospace Engineering", 
@@ -285,7 +390,10 @@ window.brothers = [
         "image": "brandon_le.jpg", 
         "interests": "EDM, Bodyboarding, Photography, Art", 
         "name": "Brandon Le", 
-        "year": 2015
+        "year": 2015,
+        "left": 0,
+        "top": 0,
+        "zoom": 240
     }, 
     {
         "aspirations": "Nuclear engineering", 
@@ -294,7 +402,10 @@ window.brothers = [
         "image": "thomas_finn.jpg", 
         "interests": "Swimming, cave-dwelling", 
         "name": "Thomas Finn", 
-        "year": 2015
+        "year": 2015,
+        "left": 0,
+        "top": -40,
+        "zoom": 220
     }, 
     {
         "aspirations": "To design a new, more practical, and safer vehicles", 
@@ -303,6 +414,9 @@ window.brothers = [
         "image": "parker_chambers.jpg", 
         "interests": "Intervarsity, long boarding, concept cars, graffiti, and extreme sports", 
         "name": "Parker Chambers", 
-        "year": 2015
+        "year": 2015,
+        "left": 0,
+        "top": -10,
+        "zoom": 220
     }
 ];
