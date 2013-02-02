@@ -3763,7 +3763,6 @@ input[type="submit"].btn.btn-mini {
 .thumbnail {
   display: block;
   line-height: 1;
-  height: 150px;
   overflow: hidden;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
@@ -3772,6 +3771,9 @@ input[type="submit"].btn.btn-mini {
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+#brothers .thumbnail {
+  height: 150px;
 }
 a.thumbnail:hover {
   border-color: #0088cc;
