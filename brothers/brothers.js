@@ -236,7 +236,7 @@ window.brothers = [
         "name": "Jackson Crane", 
         "year": 2013,
         "left": 0,
-        "top": -10,
+        "top": -80,
         "zoom": 220
     }, 
     {
@@ -272,7 +272,7 @@ window.brothers = [
         "name": "Chas Stahl",
         "year": 2013,
         "left": 0,
-        "top": 0,
+        "top": -50,
         "zoom": 220
     },
     {
@@ -418,5 +418,53 @@ window.brothers = [
         "left": 0,
         "top": -10,
         "zoom": 220
+    },
+    {
+        "aspirations": "Mechanical Engineering, Engine Design",
+        "course": "?",
+        "hometown": "De Soto, MO",
+        "image": "jared_mckeon.jpg",
+        "interests": "Piano, Guitar, Video Games",
+        "name": "Jared McKeon",
+        "year": 2016,
+        "left": 0,
+        "top": -40,
+        "zoom": 220
+    },
+    {
+        "aspirations": "To one day become a successful Civil and Environmental Engineer, and help establish a train station in the Middle East that will make transportation between countries faster, cheaper, and more environmentally friendly",
+        "course": "?",
+        "hometown": "Beirut, Lebanon",
+        "image": "jian_barazi.jpg",
+        "interests": "Music, Basketball, Rugby, Women",
+        "name": "Jian Barazi",
+        "year": 2016,
+        "left": 0,
+        "top": -40,
+        "zoom": 220
+    },
+    {
+        "aspirations": "Genetic Engineer, Bioengeering",
+        "course": "?",
+        "hometown": "Ossining, NY",
+        "image": "evan_olin.jpg",
+        "interests": "Swimming, Music",
+        "name": "Evan Olin",
+        "year": 2016,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
+    },
+    {
+        "aspirations": "Engineer of Medical Professional, Club Swimming Coach",
+        "course": "?",
+        "hometown": "Warrington, PA",
+        "image": "michael_chen.jpg",
+        "interests": "Sports, Food, Music",
+        "name": "Michael Chen",
+        "year": 2016,
+        "left": 0,
+        "top": 0,
+        "zoom": 240
     }
 ];
