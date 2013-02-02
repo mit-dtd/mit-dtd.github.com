@@ -31,7 +31,6 @@ BrothersView = (function(_super) {
   };
 
   return BrothersView;
-
 })(Backbone.View);
 
 $(document).ready(function() {
