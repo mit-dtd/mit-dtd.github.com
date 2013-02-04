@@ -294,10 +294,10 @@ window.brothers = [
         "image": "charlie_gordon.jpg", 
         "interests": "Computers, Open source software, Politics, Soccer", 
         "name": "Charlie Gordon", 
-        "year": 2014,
+        "year": 2015,
         "left": 0,
         "top": 0,
-        "zoom": 220
+        "zoom": 240
     }, 
     {
         "aspirations": "Chemical Engineering, Pharmaceutical Engineering", 
@@ -466,5 +466,17 @@ window.brothers = [
         "left": 0,
         "top": 0,
         "zoom": 240
+    },
+    {
+        "aspirations": "To be a physical chemist working either at a research university or for the United States government",
+        "course": "5",
+        "hometown": "Cherry Hill, NJ",
+        "image": "ethan_klein.jpg",
+        "interests": "Fine art, Literature, Good organizational skills",
+        "name": "Ethan Klein",
+        "year": 2016,
+        "left": -40,
+        "top": -80,
+        "zoom": 330
     }
 ];
