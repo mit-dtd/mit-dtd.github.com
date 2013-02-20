@@ -3823,6 +3823,7 @@ a.badge:hover {
 .badge-important {
   background-color: #b94a48;
 }
+
 .label-important[href],
 .badge-important[href] {
   background-color: #953b39;
@@ -4337,4 +4338,16 @@ section {
 
 .calendar td > ul {
   margin-left: 5px;
+}
+
+#housing h2 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+#housing div.housing-image {
+  padding-top: 10px;
+  margin: 0 auto;
+  display: block;
+  max-width: 480px;
 }
