@@ -4258,6 +4258,8 @@ body {
 section {
   padding-bottom: 40px;
   overflow: hidden;
+}
+#housing section {
   float: left;
 }
 .brothers {
