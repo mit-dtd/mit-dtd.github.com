@@ -1,0 +1,159 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>&Delta;&Tau;&Delta;</title>
+  <meta name="description" content="mit delts dtd">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+  <link rel="stylesheet" href="vendor/flexslider.css">
+  <link href="vendor/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+
+
+
+</head>
+<body>
+  <div class="masthead">
+    <h1 id="main-logo"><span class="bracket">[</span>&Delta;&Tau;&Delta;<span class="bracket">]</span></h1>
+    <h6>MIT Chapter Beta Nu</h6>
+  </div>
+  
+  <div class="container">
+
+    <div class="sticky-nav row" id="navbar">
+      <div class="span8 offset2">
+        <ul class="nav nav-pills">
+          <li><a href="index.html">Welcome</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="active"><a href="brothers.html">Brothers</a></li>
+          <li><a href="housing.html">Summer Housing</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="tagline">
+      <h1><strong>Delta Tau Delta</strong> has 34 active brothers from 21 different states.</h1>
+      <p>Delts are a talented, diverse group of brothers who make us more than just a fraternity.</p>
+    </div>
+    <div id="brothers" class="content">
+      <section>
+              <div class="page-header">
+                <h1>2012</h1>
+              </div>
+              <div class="flexslider" id="bro-2012-carousel">
+                <ul class="slides">
+                  <li><img src="images/2012s.jpg" alt="" /></li>
+                  <li>
+                    <div class="row" id="bro-2012-details"></div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            
+            <section>
+              <div class="page-header">
+                <h1>2013</h1>
+              </div>
+              <div class="flexslider" id="bro-2013-carousel">
+                <ul class="slides">
+                  <li><img src="images/2013s.jpg" alt="" /></li>
+                  <li>
+                    <div class="row" id="bro-2013-details"></div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            
+            <section>
+              <div class="page-header">
+                <h1>2014</h1>
+              </div>
+              <div class="flexslider" id="bro-2014-carousel">
+                <ul class="slides">
+                  <li><img src="images/2014s.jpg" alt="" /></li>
+                  <li>
+                    <div class="row" id="bro-2014-details"></div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+            
+            <section>
+              <div class="page-header">
+                <h1>2015</h1>
+              </div>
+              <div class="flexslider" id="bro-2015-carousel">
+                <ul class="slides">
+                  <li><img src="images/2015s.jpg" alt="" /></li>
+                  <li>
+                    <div class="row" id="bro-2015-details"></div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+
+            <section>
+              <div class="page-header">
+                <h1>2016</h1>
+              </div>
+              <div class="flexslider" id="bro-2016-carousel">
+                <ul class="slides">
+                  <li><img src="images/2016s.jpg" alt="" /></li>
+                  <li>
+                    <div class="row" id="bro-2016-details"></div>
+                  </li>
+                </ul>
+              </div>
+            </section>
+    </div>
+  </div>
+  <script id="brother-detail-template" type="text/x-handlebars-template">
+  <ul class="thumbnails brothers">
+    {{#brothers}}
+    <li class="span3 brother-box">
+      <a href="brothers/img/{{image}}" class="thumbnail" rel="lightbox[{{year}}]" title="<h5>{{name}}</h5><dl class='dl-horizontal'><dt>Course</dt><dd>{{course}}</dd><dt>Hometown</dt><dd>{{hometown}}</dd><dt>Interests</dt><dd>{{interests}}</dd><dt>Aspirations</dt><dd>{{aspirations}}</dd></dl>">
+        <img src="brothers/img/{{image}}" alt="{{name}}" style="width: {{zoom}}px; max-width: {{zoom}}px; margin-left: {{left}}px; margin-top: {{top}}px;" />
+        
+      </a>
+      <p>{{name}}</p>
+      
+      
+    </li>
+    {{/brothers}}
+  </ul>
+  </script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script src="vendor/bootstrap.min.js"></script>
+  <script src="vendor/handlebars.min.js"></script>
+  <script src="vendor/underscore-min.js"></script>
+  <script src="vendor/backbone-min.js"></script>
+  <script src="vendor/jquery.flexslider-min.js"></script>
+  <script src="vendor/lightbox.js"></script>
+  <script src="brothers/brothers.js"></script>
+  <script src="main.js"></script>
+
+
+  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet -->
+  <script>
+    var _gaq=[ ['_setAccount','UA-XXXXX-X'],['_trackPageview'] ];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>

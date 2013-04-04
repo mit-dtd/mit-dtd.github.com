@@ -37,27 +37,23 @@
     <div class="sticky-nav row" id="navbar">
       <div class="span8 offset2">
         <ul class="nav nav-pills">
-          <li class="active"><a href="index.html">Welcome</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="brothers.html">Brothers</a></li>
-          <li><a href="housing.html">Summer Housing</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li[[active:index]]><a href="index.html">Welcome</a></li>
+          <li[[active:about]]><a href="about.html">About</a></li>
+          <li[[active:brothers]]><a href="brothers.html">Brothers</a></li>
+          <li[[active:housing]]><a href="housing.html">Summer Housing</a></li>
+          <li[[active:contact]]><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
     <div class="tagline">
-      <h1>Welcome to <strong>Delta Tau Delta</strong> at MIT.</h1>
-      <p>The MIT chapter of Delta Tau Delta was established in 1889.</p>
+      <h1>[[tagline]]</h1>
+      <p>[[subtagline]]</p>
     </div>
-    <div id="index" class="content">
-      <section>
-  <div class="page-header">
-    <p>Letter from Mac goes here.</p>
-  </div>
-</section>
+    <div id="[[pagename]]" class="content">
+      [[content]]
     </div>
   </div>
-  
+  [[scripts:start]]
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
   <script src="vendor/bootstrap.min.js"></script>
   <script src="vendor/handlebars.min.js"></script>
@@ -65,7 +61,7 @@
   <script src="vendor/backbone-min.js"></script>
   <script src="vendor/jquery.flexslider-min.js"></script>
   <script src="vendor/lightbox.js"></script>
-  
+  [[scripts:end]]
   <script src="main.js"></script>
 
 
