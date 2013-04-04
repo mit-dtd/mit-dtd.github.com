@@ -1,6 +1,9 @@
 [[pagename]]
 housing
 [[/pagename]]
+[[title]]
+Summer housing
+[[/title]]
 [[active:housing]]
  class="active"
 [[/active:housing]]

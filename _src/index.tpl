@@ -1,6 +1,9 @@
 [[pagename]]
 about
 [[/pagename]]
+[[title]]
+Welcome
+[[/title]]
 [[active:about]]
  class="active"
 [[/active:about]]

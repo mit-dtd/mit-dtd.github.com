@@ -1,6 +1,9 @@
 [[pagename]]
 contact
 [[/pagename]]
+[[title]]
+Contact
+[[/title]]
 [[active:contact]]
  class="active"
 [[/active:contact]]
