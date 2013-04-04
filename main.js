@@ -55,6 +55,9 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   $('.submenu a').click(function() {
+    if ($(this).parent().is('.active')) {
+      return false;
+    }
     $(this).closest("ul").find("li.active").removeClass("active");
     $(this).parent().addClass("active");
     freezeHeight();
