@@ -399,7 +399,7 @@ h3 small {
 h4,
 h5,
 h6 {
-  line-height: 18px;
+  line-height: 11px;
 }
 h4 {
   font-size: 14px;
@@ -4209,7 +4209,8 @@ body {
   background: #FFFFFF;
 }
 .masthead {
-  padding-top: 20px;
+  padding-top: 25px;
+  padding-bottom: 50px;
   width: 1083px;
   margin: auto;
   -webkit-touch-callout: none;
@@ -4226,16 +4227,16 @@ body {
 }
 .masthead h6 {
   text-align: right;
-  margin-right: 165px;
+  margin-right: 232px;
 }
 .masthead h1 {
-  font-size: 400px;
-  line-height: 313px;
+  font-size: 300px;
+  line-height: 215px;
   text-align: center;
 }
 .sticky-nav {
-  padding-top: 100px;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
   text-align: center;
 }
 .sticky-nav > div {
