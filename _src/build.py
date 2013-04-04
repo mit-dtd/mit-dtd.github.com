@@ -32,6 +32,7 @@ for files in os.listdir("."):
         for token in replacements.keys():
             pagecontents = pagecontents.replace(token, replacements[token])
         writefile = files.replace(".tpl", ".html");
+        print "Building " + writefile + "..."
         f = open("../" + writefile, "w")
         f.write(pagecontents);
         f.close()

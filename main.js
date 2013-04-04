@@ -34,6 +34,9 @@ BrothersView = (function(_super) {
 })(Backbone.View);
 
 $(document).ready(function() {
+  if ($('#brothers').size() == 0) {
+    return;
+  }
   var year, _i, _len, _ref, _results;
   $('.flexslider').flexslider({
     slideshow: false
@@ -49,3 +52,41 @@ $(document).ready(function() {
   }
   return _results;
 });
+
+$(document).ready(function() {
+  $('.submenu a').click(function() {
+    $(this).closest("ul").find("li.active").removeClass("active");
+    $(this).parent().addClass("active");
+    freezeHeight();
+    $('.subpage:visible').slideUp();
+    $($(this).attr("href")).slideDown();
+    unfreezeHeight();
+    return false;
+  });
+});
+
+/**
+ * Freeze the current body height (as minimum height). Used to prevent
+ * unnecessary upwards scrolling when doing DOM manipulations.
+ */
+freezeHeight = function () {
+  unfreezeHeight();
+  var div = document.createElement('div');
+  $(div).css({
+    position: 'absolute',
+    top: '0px',
+    left: '0px',
+    width: '1px',
+    height: $('body').css('height')
+  }).attr('id', 'freeze-height');
+  $('body').append(div);
+};
+
+/**
+ * Unfreeze the body height
+ */
+unfreezeHeight = function () {
+  $('#freeze-height').remove();
+};
+
+
