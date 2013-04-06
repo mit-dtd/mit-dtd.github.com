@@ -382,19 +382,7 @@ window.brothers = [
         "left": 0,
         "top": 0,
         "zoom": 220
-    }, 
-    {
-        "aspirations": "Trading, Aerospace Engineering", 
-        "course": "16", 
-        "hometown": "San Diego, CA", 
-        "image": "brandon_le.jpg", 
-        "interests": "EDM, Bodyboarding, Photography, Art", 
-        "name": "Brandon Le", 
-        "year": 2015,
-        "left": 0,
-        "top": 0,
-        "zoom": 240
-    }, 
+    },
     {
         "aspirations": "Nuclear engineering", 
         "course": "2", 

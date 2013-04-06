@@ -20,6 +20,9 @@ BrothersView = (function(_super) {
     this.brothers = _.filter(window.brothers, function(b) {
       return b.year === _this.options.year;
     });
+    this.brothers = _.sortBy(this.brothers, function(b) {
+      return b.name.split(" ").pop();
+    });
     this.template = Handlebars.compile(($('#brother-detail-template')).html());
     return this.render();
   };
