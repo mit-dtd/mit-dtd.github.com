@@ -13,6 +13,7 @@ for files in os.listdir("."):
             "[[active:index]]": "",
             "[[active:about]]": "",
             "[[active:brothers]]": "",
+            "[[active:cpw]]": "",
             "[[active:housing]]": "",
             "[[active:contact]]": "",
             "[[tagline]]": "",
