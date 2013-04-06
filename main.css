@@ -4207,6 +4207,7 @@ body {
   background: #FFFFFF;
 }
 .masthead {
+  font-family: Arial, sans-serif;
   padding-top: 25px;
   padding-bottom: 50px;
   width: 1083px;
@@ -4225,7 +4226,7 @@ body {
 }
 .masthead h6 {
   text-align: right;
-  margin-right: 232px;
+  margin-right: 275px;
 }
 .masthead h1 {
   font-size: 300px;
@@ -4375,8 +4376,6 @@ section {
   list-style: none;
   font-size: 24px;
   margin: 0;
-  border-bottom: 1px solid #C9C9C9;
-  border-top: 1px solid #C9C9C9;
   padding: 5px;
   width: 100%;
 }
@@ -4405,3 +4404,7 @@ section {
   margin-bottom: 20px;
 }
 
+#president-photo {
+  float: left;
+  margin: 0 14px 14px 0;
+}
