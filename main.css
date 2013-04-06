@@ -4311,6 +4311,8 @@ section {
 .calendar th {
   font-size: 25px;
   line-height: 30px;
+  padding-left: 10px;
+  text-align: left;
 }
 
 .calendar th.first, .calendar td.first {
