@@ -4298,9 +4298,10 @@ section {
 }
 
 .calendar {
-  color: #a6a6a6;
+  color: #A6A6A6;
   font-size: 13px;
-  width: 100%;
+  margin: 0 auto;
+  width: 72%;
 }
 
 .calendar th, .calendar td {
