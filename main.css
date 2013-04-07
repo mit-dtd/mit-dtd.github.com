@@ -138,6 +138,7 @@ body {
   line-height: 18px;
   color: #333333;
   background-color: #ffffff;
+  display: none;
 }
 a {
   color: #0088cc;
@@ -4383,6 +4384,7 @@ section {
   margin: 0;
   padding: 5px;
   width: 100%;
+  margin-left: 15px;
 }
 
 .submenu li {
@@ -4412,4 +4414,20 @@ section {
 #president-photo {
   float: left;
   margin: 0 14px 14px 0;
+}
+
+#submenu-arrow {
+  background-image: url('images/arrow.png');
+  display: block;
+  height: 13px;
+  width: 7px;
+  margin-top: -13px;
+  position: relative;
+  top: 27px;
+  left: 4px;
+  width: 7px;
+}
+
+#contact .page-header {
+  padding-top: 15px;
 }

@@ -16,6 +16,7 @@ Delts are a talented, diverse group of brothers who make us more than just a fra
 [[content]]
   <div class="row">
     <div class="span2">
+      <span id="submenu-arrow"></span>
       <ul class="submenu">
         <li class="active"><a href="#brotherinfo">Brothers</a></li>
         <li><a href="#class2012">2012s</a></li>

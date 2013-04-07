@@ -17,6 +17,7 @@ On the Boston side, our brownstone home is less than a mile, or 945.67 Smoots, t
 <section>
   <div class="row">
     <div class="span2">
+      <span id="submenu-arrow"></span>
       <ul class="submenu">
         <li class="active"><a href="#welcome">Welcome</a></li>
         <li><a href="#academics">Academics</a></li>

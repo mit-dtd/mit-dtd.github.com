@@ -37,6 +37,58 @@ BrothersView = (function(_super) {
 })(Backbone.View);
 
 $(document).ready(function() {
+  function createCookie(name,value,days) {
+    if (days) {
+      var date = new Date();
+      date.setTime(date.getTime()+(days*24*60*60*1000));
+      var expires = "; expires="+date.toGMTString();
+    }
+    else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+  function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+      var c = ca[i];
+      while (c.charAt(0)==' ') c = c.substring(1,c.length);
+      if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+  }
+
+  function eraseCookie(name) {
+    createCookie(name,"",-1);
+  }
+
+  doAnimation = !readCookie("skipAnimation");
+  if (doAnimation || true) {
+    $('body > .container').hide();
+    $('body > .masthead > *').hide();
+    $('body').css("display", "block");
+    var letters = ["&Delta;", "&Tau;", "&Delta;"];
+    setTimeout(function() {
+      $('body > .masthead h1').html('<span class="bracket">[</span><span id="header-fill-animation"></span><span class="bracket">]</span>').fadeIn(1000, function() {
+        setTimeout(function() {
+          appendLetter = function() {
+            if (letters.length == 0) { setTimeout(function() { $('body > .masthead > h6').fadeIn(1000); setTimeout(finish, 2000); }, 500); return; }
+            $('#header-fill-animation').html($('#header-fill-animation').html() + letters.shift())
+            setTimeout(appendLetter, 400);
+          };
+          appendLetter();
+          var finish = function() {
+            $('body > .container').fadeIn(1000);
+            createCookie("skipAnimation", 1, 1);
+          };
+        }, 500);
+      });
+    }, 500);
+  }
+  $('body').css("display", "block");
+});
+
+$(document).ready(function() {
   if ($('#brothers').size() == 0) {
     return;
   }
@@ -61,6 +113,8 @@ $(document).ready(function() {
     if ($(this).parent().is('.active')) {
       return false;
     }
+    var offset = $(this).parent().offset().top - $(this).parent().parent().offset().top;
+    $("#submenu-arrow").animate({"top": (offset + 22) + "px"});
     $(this).closest("ul").find("li.active").removeClass("active");
     $(this).parent().addClass("active");
     freezeHeight();
