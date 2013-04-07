@@ -106,7 +106,7 @@ Enjoy roofdeck smoothies, casino night, and our legendary goldfish party.
       <tr>
         <td>10:00pm - 1:00am</td>
         <td>Game Night at Delts</td>
-        <td>High-speed go-karts all night. Period.</td>
+        <td>Come play poker and other games at the Delts house! Prizes will be given out to the winners at the end of the night!</td>
       </tr>
     </tbody>
   </table>
