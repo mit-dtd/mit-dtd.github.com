@@ -4360,6 +4360,8 @@ section {
 
 #apply-now-link {
   padding: 10px 15px;
+  margin-top: -20px;
+  margin-bottom: 15px;
   background: #4479BA;
   color: #FFF;
   font-size: 1.5em;
