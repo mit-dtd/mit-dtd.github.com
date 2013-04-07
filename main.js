@@ -63,7 +63,7 @@ $(document).ready(function() {
   }
 
   doAnimation = !readCookie("skipAnimation");
-  if (doAnimation || true) {
+  if (doAnimation) {
     $('body > .container').hide();
     $('body > .masthead > *').hide();
     $('body').css("display", "block");
@@ -122,6 +122,12 @@ $(document).ready(function() {
     $($(this).attr("href")).slideDown();
     unfreezeHeight();
     return false;
+  });
+});
+
+$(document).ready(function() {
+  $('#brothers').find('a.thumbnail').each(function() {
+    $(this).data('title', $(this).attr("title")).removeAttr("title");
   });
 });
 
