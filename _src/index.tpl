@@ -11,7 +11,7 @@ Welcome
 <strong>Delta Tau Delta</strong> is an MIT fraternity located at 416 Beacon St.
 [[/tagline]]
 [[subtagline]]
-On the Boston side, our brownstone home is less than a mile, or 945.67 Smoots, to MIT's main campus.
+On the Boston side, our brownstone home is less than a mile, or 945.67 Smoots, from MIT's main campus.
 [[/subtagline]]
 [[content]]
 <section>

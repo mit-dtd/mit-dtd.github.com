@@ -41,10 +41,6 @@ Enjoy roofdeck smoothies, casino night, and our legendary goldfish party.
           <li>10pm-1:00am</li>
         </ul>
       </li>
-      <li>Thanksgiving Dinner at Delts<ul>
-          <li>5:30-7pm</li>
-        </ul>
-      </li>
     </ul>
   </td>
   <!--Saturday-->
