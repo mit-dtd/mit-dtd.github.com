@@ -29,7 +29,7 @@ Enjoy roofdeck smoothies, casino night, and our legendary goldfish party.
           </ul>
         </li>
         <li>Roofdeck ice cream &amp; smoothies<ul>
-          <li>8-10:00pm</li>
+          <li>10pm-12:00am</li>
         </ul>
       </li>
     </ul>
@@ -63,7 +63,7 @@ Enjoy roofdeck smoothies, casino night, and our legendary goldfish party.
         <td>Come to Kresge and enjoy burgers with the brothers of Delts!</td>
       </tr>
       <tr>
-        <td>1:00 - 2:00pm</td>
+        <td>10:00pm - 12:00am</td>
         <td>Roofdeck ice cream &amp; smoothies</td>
         <td>Come hang out on our roofdeck and enjoy ice cream, smoothies, and the awesome view.</td>
       </tr>
