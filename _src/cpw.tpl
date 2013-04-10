@@ -1,8 +1,8 @@
 [[pagename]]
-contact
+cpw
 [[/pagename]]
 [[title]]
-Contact
+CPW 2013
 [[/title]]
 [[active:cpw]]
  class="active"
