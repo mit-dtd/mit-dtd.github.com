@@ -466,5 +466,91 @@ window.brothers = [
         "left": -40,
         "top": -80,
         "zoom": 330
+    },
+    {
+
+        "aspirations": "To run a successful startup.",
+        "course": "6",
+        "hometown": "Califon, NJ",
+        "image": "s_robinson.jpg",
+        "interests": "Fencing, Programming, Entrepreneurship",
+        "name": "Scott Robinson",
+        "year": 2016,
+        "left": 0,
+        "top": -25,
+        "zoom": 220
+    },
+    {
+        "aspirations": "To make music software for famous producers.",
+        "course": "6, 21M",
+        "hometown": "Baltimore, MD",
+        "image": "g_gomez.jpg",
+        "interests": "Programming, Music, DJing, Soccer",
+        "name": "Gerardo Gomez",
+        "year": 2016,
+        "left": 0,
+        "top": -20,
+        "zoom": 290
+    },
+    {
+        "aspirations": "To work at a successful computer science company and make a difference in the world.",
+        "course": "6",
+        "hometown": "San Francisco, CA",
+        "image": "pedro_padilla.jpg",
+        "interests": "Technical non-fiction, Gardening",
+        "name": "Pedro Padilla",
+        "year": 2016,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
+    },
+    {
+
+        "aspirations": "To be a successful computer graphics programmer.",
+        "course": "6",
+        "hometown": "Los Altos, CA",
+        "image": "itty_belson.jpg",
+        "interests": "Programming, Computer Graphics, Videogames.",
+        "name": "Itamar Belson",
+        "year": 2016,
+        "left": 0,
+        "top": -30,
+        "zoom": 220
+    },
+    {
+        "aspirations": "Programming, Becoming a famous DJ.",
+        "course": "6",
+        "hometown": "Roselle, IL",
+        "image": "andrew_hochstead.jpg",
+        "interests": "Club DJ, Volleyball",
+        "name": "Andrew Hochstadt",
+        "year": 2016,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
+    },
+    {
+        "aspirations": "To become a founder of a famous company.",
+        "course": "14, 18",
+        "hometown": "Vero Beach, FL",
+        "image": "paul_coella.jpg",
+        "interests": "Lacrosse, DFAC",
+        "name": "Paul Coella",
+        "year": 2016,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
+    },
+    {
+        "aspirations": "I'm tall and gangly, and I love surprises.",
+        "course": "6",
+        "hometown": "Wappingers Falls, NY",
+        "image": "rob_verkuil.jpg",
+        "interests": "Programming, Electronics, Construction.",
+        "name": "Rob Verkuil",
+        "year": 2016,
+        "left": 0,
+        "top": -25,
+        "zoom": 220
     }
 ];
