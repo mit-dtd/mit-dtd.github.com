@@ -542,11 +542,11 @@ window.brothers = [
         "zoom": 220
     },
     {
-        "aspirations": "I'm tall and gangly, and I love surprises.",
+        "aspirations": "Research energy storage, Startup!",
         "course": "6",
         "hometown": "Wappingers Falls, NY",
         "image": "rob_verkuil.jpg",
-        "interests": "Programming, Electronics, Construction.",
+        "interests": "Programming, Electronics, Hiking, Cooking, Teaching",
         "name": "Rob Verkuil",
         "year": 2016,
         "left": 0,
