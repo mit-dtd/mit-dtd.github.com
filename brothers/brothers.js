@@ -385,7 +385,7 @@ window.brothers = [
     },
     {
         "aspirations": "Nuclear engineering", 
-        "course": "2", 
+        "course": "6", 
         "hometown": "Potomac, MD", 
         "image": "thomas_finn.jpg", 
         "interests": "Swimming, cave-dwelling", 
@@ -409,7 +409,7 @@ window.brothers = [
     },
     {
         "aspirations": "Mechanical Engineering, Engine Design",
-        "course": "?",
+        "course": "2",
         "hometown": "De Soto, MO",
         "image": "jared_mckeon.jpg",
         "interests": "Piano, Guitar, Video Games",
@@ -421,7 +421,7 @@ window.brothers = [
     },
     {
         "aspirations": "To one day become a successful Civil and Environmental Engineer, and help establish a train station in the Middle East that will make transportation between countries faster, cheaper, and more environmentally friendly",
-        "course": "?",
+        "course": "15 & 18",
         "hometown": "Beirut, Lebanon",
         "image": "jian_barazi.jpg",
         "interests": "Music, Basketball, Rugby, Women",
@@ -432,8 +432,8 @@ window.brothers = [
         "zoom": 220
     },
     {
-        "aspirations": "Genetic Engineer, Bioengeering",
-        "course": "?",
+        "aspirations": "Genetic Engineer, Biotech Consultant",
+        "course": "20 & 15",
         "hometown": "Ossining, NY",
         "image": "evan_olin.jpg",
         "interests": "Swimming, Music",
@@ -445,7 +445,7 @@ window.brothers = [
     },
     {
         "aspirations": "Engineer of Medical Professional, Club Swimming Coach",
-        "course": "?",
+        "course": "10",
         "hometown": "Warrington, PA",
         "image": "michael_chen.jpg",
         "interests": "Sports, Food, Music",
@@ -481,8 +481,8 @@ window.brothers = [
         "zoom": 220
     },
     {
-        "aspirations": "To make music software for famous producers.",
-        "course": "6, 21M",
+        "aspirations": "To make computers think like us.",
+        "course": "6 & 9",
         "hometown": "Baltimore, MD",
         "image": "g_gomez.jpg",
         "interests": "Programming, Music, DJing, Soccer",
