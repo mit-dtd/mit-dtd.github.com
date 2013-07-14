@@ -136,7 +136,7 @@ window.brothers = [
         "course": "16", 
         "hometown": "Corpus Christi, TX", 
         "image": "jason_elizalde.jpg", 
-        "interests": "Ice cream, EDM, Concerts", 
+        "interests": "Ice cream, EDM, Concerts, Sailing, Boatbuilding, Startups", 
         "name": "Jason Elizalde", 
         "year": 2013,
         "left": 0,
@@ -531,7 +531,7 @@ window.brothers = [
     },
     {
         "aspirations": "To become a founder of a famous company.",
-        "course": "14, 18",
+        "course": "6, 8",
         "hometown": "Vero Beach, FL",
         "image": "paul_coella.jpg",
         "interests": "Lacrosse, DFAC",
