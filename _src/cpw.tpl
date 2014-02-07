@@ -2,7 +2,7 @@
 cpw
 [[/pagename]]
 [[title]]
-CPW 2013
+CPW 2014
 [[/title]]
 [[active:cpw]]
  class="active"

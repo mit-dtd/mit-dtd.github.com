@@ -18,10 +18,10 @@ We'd be happy to answer any inquiries.
   <div class="page-header">
     <p>General inquiries: <a href="mailto:deltataudelta@mit.edu">deltataudelta@mit.edu</a></p>
     <br />
-    <p>President: <a href="mailto:mgager@mit.edu">Mac Gager</a></p>
-    <p>Vice President: <a href="mailto:kclayton@mit.edu">Kevin Clayton</a></p>
-    <p>Rush Chair: <a href="mailto:cwgordon@mit.edu">Charles Gordon</a></p>
-    <p>Summer House Manager: <a href="mailto:msuglian@mit.edu">Michael Suglian</a></p>
+    <p>President: <a href="mailto:bimstein@mit.edu">Zev Bimstein</a></p>
+    <p>Vice President: <a href="mailto:jzl@mit.edu">Jasper Lienhard</a></p>
+    <p>Rush Chair: <a href="mailto:andrew16@mit.edu">Andrew Hochstadt</a></p>
+    <p>Summer House Manager: TBD</p>
     <br />
     <p>Visit us at: 416 Beacon Street, Boston, MA</p>
   </div>
