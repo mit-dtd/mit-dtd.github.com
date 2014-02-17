@@ -21,7 +21,7 @@ We'd be happy to answer any inquiries.
     <p>President: <a href="mailto:bimstein@mit.edu">Zev Bimstein</a></p>
     <p>Vice President: <a href="mailto:jzl@mit.edu">Jasper Lienhard</a></p>
     <p>Rush Chair: <a href="mailto:andrew16@mit.edu">Andrew Hochstadt</a></p>
-    <p>Summer House Manager: TBD</p>
+    <p>Summer House Manager: <a href="mailto:padillap@mit.edu">Pedro Padilla</a></p>
     <br />
     <p>Visit us at: 416 Beacon Street, Boston, MA</p>
   </div>

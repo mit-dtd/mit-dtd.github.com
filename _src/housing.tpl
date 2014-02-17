@@ -11,10 +11,10 @@ Summer housing
 <strong>Delta Tau Delta</strong> has rooms open for rent this summer.
 [[/tagline]]
 [[subtagline]]
-We are currently accepting applications from prospective boarders for the summer of 2014. To request a tour, apply for summer housing, or any other information please contact <a href="mailto:msuglian@mit.edu">Mikey Suglian</a>
+We are currently accepting applications from prospective boarders for the summer of 2014. To request a tour, apply for summer housing, or any other information please contact <a href="mailto:padillap@mit.edu">Pedro Padilla</a>
 [[/subtagline]]
 [[content]]
-            <a id="apply-now-link" href="mailto:msuglian@mit.edu">Apply now &raquo;</a>
+            <a id="apply-now-link" href="mailto:padillap@mit.edu">Apply now &raquo;</a>
             <section>
               <div class="page-header">
                 <h2>416 Beacon Street</h2>
