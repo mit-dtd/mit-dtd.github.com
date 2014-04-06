@@ -64,26 +64,27 @@ $(document).ready(function() {
 
   doAnimation = !readCookie("skipAnimation");
   if (doAnimation) {
+    var k = 60;
     $('body > .container').hide();
     $('body > .masthead > *').hide();
     $('body').css("display", "block");
     var letters = ["&Delta;", "&Tau;", "&Delta;"];
     setTimeout(function() {
-      $('body > .masthead h1').html('<span class="bracket">[</span><span id="header-fill-animation"></span><span class="bracket">]</span>').fadeIn(1000, function() {
+      $('body > .masthead h1').html('<span class="bracket">[</span><span id="header-fill-animation"></span><span class="bracket">]</span>').fadeIn(10 * k, function() {
         setTimeout(function() {
           appendLetter = function() {
-            if (letters.length == 0) { setTimeout(function() { $('body > .masthead > h6').fadeIn(1000); setTimeout(finish, 2000); }, 500); return; }
+            if (letters.length == 0) { setTimeout(function() { $('body > .masthead > h6').fadeIn(5 * k); setTimeout(finish, 10 * k); }, 2 * k); return; }
             $('#header-fill-animation').html($('#header-fill-animation').html() + letters.shift())
-            setTimeout(appendLetter, 400);
+            setTimeout(appendLetter, 5 * k);
           };
           appendLetter();
           var finish = function() {
-            $('body > .container').fadeIn(1000);
-            createCookie("skipAnimation", 1, 1);
+            $('body > .container').slideDown(10 * k);
+            createCookie("skipAnimation", 1, 14);
           };
-        }, 500);
+        }, 2 * k);
       });
-    }, 500);
+    }, 2 * k);
   }
   $('body').css("display", "block");
 });

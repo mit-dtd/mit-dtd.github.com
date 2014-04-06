@@ -65,7 +65,7 @@ We are currently accepting applications from prospective boarders for the summer
                 <h2>Parking</h2>
                 <p>We have a 6-car garage as well as 2 street spots available for rent. Spaces can be rented on a first-come first-serve basis for $300.</p>
                 <h2>Contact</h2>
-                <p>To request a tour, apply for summer housing, or any other information please contact <a href="mailto:msuglian@mit.edu">Mikey Suglian</a>.</p>
+                <p>To request a tour, apply for summer housing, or any other information please contact <a href="mailto:padillap@mit.edu">Pedro Padilla</a>.</p>
               </div>
             </section>
 [[/content]]
