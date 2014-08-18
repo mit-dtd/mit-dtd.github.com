@@ -602,11 +602,11 @@ window.brothers = [
         "zoom": 220
     },
     {
-        "aspirations": "Make an important biological discovery",
-        "course": "10",
+        "aspirations": "To start a successful company and build my brand",
+        "course": "2A-6",
         "hometown": "Belmont, Massachusetts",
         "image": "krithi_chandrakasan.jpg",
-        "interests": "Baseball, Music",
+        "interests": "Baseball, Football",
         "name": "Krithi Chandrakasan",
         "year": 2017,
         "left": 0,
