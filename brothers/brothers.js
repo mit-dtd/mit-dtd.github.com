@@ -408,18 +408,6 @@ window.brothers = [
         "zoom": 220
     },
     {
-        "aspirations": "Mechanical Engineering, Engine Design",
-        "course": "2",
-        "hometown": "De Soto, MO",
-        "image": "jared_mckeon.jpg",
-        "interests": "Piano, Guitar, Video Games",
-        "name": "Jared McKeon",
-        "year": 2016,
-        "left": 0,
-        "top": -40,
-        "zoom": 220
-    },
-    {
         "aspirations": "To one day become a successful Civil and Environmental Engineer, and help establish a train station in the Middle East that will make transportation between countries faster, cheaper, and more environmentally friendly",
         "course": "15 & 18",
         "hometown": "Beirut, Lebanon",
