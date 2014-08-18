@@ -552,5 +552,77 @@ window.brothers = [
         "left": 0,
         "top": -25,
         "zoom": 220
-    }
+    },
+    {
+        "aspirations": "Get rich or die trying",
+        "course": "2",
+        "hometown": "Hong Kong",
+        "image": "anant_kappor.jpg",
+        "interests": "Robotics, Kickboxing, Scuba Diving",
+        "name": "Anant Kapoor",
+        "year": 2017,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
+    },
+    {
+        "aspirations": "To become the President of the US",
+        "course": "16, 17",
+        "hometown": "Greenwood Village, CO",
+        "image": "brandt_nelson.jpg",
+        "interests": "Lacrosse, Politics, Music, Hiking",
+        "name": "Brandt Nelson",
+        "year": 2017,
+        "left": 0,
+        "top": 0,
+        "zoom": 220
+    },
+    {
+        "aspirations": "To work in a major pharmaceutical company synthesizing new medicine for an ever-changing world",
+        "course": "10B",
+        "hometown": "Silver Spring, Maryland",
+        "image": "orlando_arevalo.jpg",
+        "interests": "Traveling, Paintballing, Hanging out",
+        "name": "Orlando Arevalo",
+        "year": 2017,
+        "left": 0,
+        "top": -30,
+        "zoom": 220
+    },
+    {
+        "aspirations": "Develop a way to extract materials from asteroids, work for NASA, or run a large company",
+        "course": "16",
+        "hometown": "Luwick, Texas",
+        "image": "carlos_cruz.jpg",
+        "interests": "Rocket Science, Space Travel, Reading",
+        "name": "Carlos Cruz",
+        "year": 2017,
+        "left": 0,
+        "top": -40,
+        "zoom": 220
+    },
+    {
+        "aspirations": "Be a successful entrepeneur",
+        "course": "18",
+        "hometown": "Orinda, California",
+        "image": "matthew_coupin.jpg",
+        "interests": "Surfing, Hiking",
+        "name": "Matthew Coupin",
+        "year": 2017,
+        "left": 0,
+        "top": -70,
+        "zoom": 220
+    },
+    {
+        "aspirations": "Make an important biological discovery",
+        "course": "10",
+        "hometown": "Belmont, Massachusetts",
+        "image": "krithi_chandrakasan.jpg",
+        "interests": "Baseball, Music",
+        "name": "Krithi Chandrakasan",
+        "year": 2017,
+        "left": 0,
+        "top": -50,
+        "zoom": 220
+    },
 ];
