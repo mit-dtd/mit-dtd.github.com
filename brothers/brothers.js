@@ -570,7 +570,7 @@ window.brothers = [
         "course": "10B",
         "hometown": "Silver Spring, Maryland",
         "image": "orlando_arevalo.jpg",
-        "interests": "Traveling, Paintballing, Hanging out",
+        "interests": "Traveling, Paintballing, Ice Hockey, Hanging out",
         "name": "Orlando Arevalo",
         "year": 2017,
         "left": 0,
