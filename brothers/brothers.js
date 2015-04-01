@@ -215,7 +215,7 @@ window.brothers = [
         "name": "Githui Maina",
         "year": 2016,
         "left": 0,
-        "top": -50,
+        "top": 0,
         "zoom": 220
     },
     // 2017s
