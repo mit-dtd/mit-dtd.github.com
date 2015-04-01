@@ -349,7 +349,7 @@ window.brothers = [
         "name": "Dylan Joss",
         "year": 2018,
         "left": 0,
-        "top": 0,
+        "top": 10,
         "zoom": 220   
     }
 ];
