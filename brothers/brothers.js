@@ -313,7 +313,7 @@ window.brothers = [
         "name": "Robert Binkowski",
         "year": 2018,
         "left": 0,
-        "top": -70,
+        "top": -90,
         "zoom": 220   
     },
     {
@@ -333,7 +333,7 @@ window.brothers = [
         "course": "6/7",
         "hometown": "Jay, Maine",
         "image": "urk.jpg",
-        "interests": "Computational Biology, Music, Soccer, Basketball, Advances in Medical Technology, Cats, Good Weed & Bad Bitches",
+        "interests": "Computational Biology, Music, Soccer, Basketball, Advances in Medical Technology, Cats",
         "name": "Erik Taylor",
         "year": 2018,
         "left": 0,
