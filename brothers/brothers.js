@@ -313,7 +313,7 @@ window.brothers = [
         "name": "Robert Binkowski",
         "year": 2018,
         "left": 0,
-        "top": -10,
+        "top": 10,
         "zoom": 220   
     },
     {
