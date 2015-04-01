@@ -313,7 +313,7 @@ window.brothers = [
         "name": "Robert Binkowski",
         "year": 2018,
         "left": 0,
-        "top": 0,
+        "top": -10,
         "zoom": 220   
     },
     {
@@ -340,4 +340,16 @@ window.brothers = [
         "top": -20,
         "zoom": 220   
     },
+    {
+        "aspirations": "Use computer science to revolutionize education",
+        "course": "6-3",
+        "hometown": "Anaheim, California",
+        "image": "dylan_joss.jpg",
+        "interests": "Traveling, learning new languages, basketball",
+        "name": "Dylan Joss",
+        "year": 2018,
+        "left": 0,
+        "top": 0,
+        "zoom": 220   
+    }
 ];
