@@ -97,7 +97,7 @@ $(document).ready(function() {
   $('.flexslider').flexslider({
     slideshow: false
   });
-  _ref = [2014, 2015, 2016, 2017];
+  _ref = [2015, 2016, 2017, 2018];
   _results = [];
   for (_i = 0, _len = _ref.length; _i < _len; _i++) {
     year = _ref[_i];
