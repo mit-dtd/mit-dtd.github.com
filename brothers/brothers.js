@@ -301,7 +301,7 @@ window.brothers = [
         "name": "Parker Greene",
         "year": 2018,
         "left": 0,
-        "top": -50,
+        "top": -20,
         "zoom": 220
     },
     {
@@ -313,7 +313,7 @@ window.brothers = [
         "name": "Robert Binkowski",
         "year": 2018,
         "left": 0,
-        "top": -50,
+        "top": -70,
         "zoom": 220   
     },
     {
@@ -325,7 +325,7 @@ window.brothers = [
         "name": "Gabe Ravel",
         "year": 2018,
         "left": 0,
-        "top": -50,
+        "top": -30,
         "zoom": 220   
     },
     {
@@ -337,7 +337,7 @@ window.brothers = [
         "name": "Erik Taylor",
         "year": 2018,
         "left": 0,
-        "top": -50,
+        "top": -20,
         "zoom": 220   
     },
 ];
