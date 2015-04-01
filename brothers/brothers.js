@@ -1,5 +1,6 @@
 window.brothers = [
     // 2015s
+    // top < 0 moves the image UP within bounded box
     {
         "aspirations": "Saving the world", 
         "course": "6", 
@@ -313,7 +314,7 @@ window.brothers = [
         "name": "Robert Binkowski",
         "year": 2018,
         "left": 0,
-        "top": 10,
+        "top": -20,
         "zoom": 220   
     },
     {
@@ -349,7 +350,7 @@ window.brothers = [
         "name": "Dylan Joss",
         "year": 2018,
         "left": 0,
-        "top": 10,
+        "top": -10,
         "zoom": 220   
     }
 ];
