@@ -456,19 +456,6 @@ window.brothers = [
         "zoom": 330
     },
     {
-
-        "aspirations": "To run a successful startup.",
-        "course": "6",
-        "hometown": "Califon, NJ",
-        "image": "s_robinson.jpg",
-        "interests": "Fencing, Programming, Entrepreneurship",
-        "name": "Scott Robinson",
-        "year": 2016,
-        "left": 0,
-        "top": -25,
-        "zoom": 220
-    },
-    {
         "aspirations": "To make computers think like us.",
         "course": "6 & 9",
         "hometown": "Baltimore, MD",
