@@ -353,4 +353,16 @@ window.brothers = [
         "top": -20,
         "zoom": 220   
     },
+    {
+        "aspirations": "Start my own energy or vehicle company",
+        "course": "2A-Product Design",
+        "hometown": "Rockville Centre, New York",
+        "image": "sam_resnique.jpg",
+        "interests": "Restoring muscle cars, surfing, piano, building/construction",
+        "name": "Sam Resnick",
+        "year": 2018,
+        "left": 0,
+        "top": -30,
+        "zoom": 220   
+    },
 ];
