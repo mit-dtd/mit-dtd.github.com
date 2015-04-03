@@ -362,7 +362,7 @@ window.brothers = [
         "name": "Sam Resnick",
         "year": 2018,
         "left": 0,
-        "top": -30,
+        "top": -50,
         "zoom": 220   
     },
 ];
