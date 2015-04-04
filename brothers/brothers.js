@@ -365,4 +365,16 @@ window.brothers = [
         "top": -50,
         "zoom": 220   
     },
+    {
+        "aspirations": "Work with Modular Nuclear Reactor designs and applications",
+        "course": "2A-22",
+        "hometown": "Mandan, North Dakota",
+        "image": "sam_ravnaas.jpg",
+        "interests": "Pole Vault, guitar, concerts, building stuff",
+        "name": "Sam Ravnaas",
+        "year": 2018,
+        "left": 0,
+        "top": -30,
+        "zoom": 220   
+    },
 ];
