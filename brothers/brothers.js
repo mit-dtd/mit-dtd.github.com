@@ -374,7 +374,19 @@ window.brothers = [
         "name": "Sam Ravnaas",
         "year": 2018,
         "left": 0,
-        "top": -30,
+        "top": 0,
+        "zoom": 220   
+    },
+    {
+        "aspirations": "To make money, have fun, and live a dope life",
+        "course": "3 with a minor in 2",
+        "hometown": "Bainbridge Island, WA",
+        "image": "alex_derry.jpg",
+        "interests": "Rowing",
+        "name": "Alex Derry",
+        "year": 2018,
+        "left": 0,
+        "top": 0,
         "zoom": 220   
     },
 ];
