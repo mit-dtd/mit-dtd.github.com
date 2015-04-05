@@ -393,7 +393,7 @@ window.brothers = [
         "aspirations": "Being ridiculously rich",
         "course": "6 and 15",
         "hometown": "Beirut, Lebanon",
-        "image": "manjot_sangha.png",
+        "image": "tarek_mansour.png",
         "interests": "Skiing and soccer",
         "name": "Tarek Mansour",
         "year": 2018,
