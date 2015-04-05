@@ -413,4 +413,16 @@ window.brothers = [
         "top": 0,
         "zoom": 220   
     },
+    {
+        "aspirations": "Get rich or die trying",
+        "course": "2",
+        "hometown": "New York City, New York",
+        "image": "greg_cartagena.jpg",
+        "interests": "Basketball",
+        "name": "Greg Cartagena",
+        "year": 2018,
+        "left": 0,
+        "top": 0,
+        "zoom": 220   
+    },
 ];
