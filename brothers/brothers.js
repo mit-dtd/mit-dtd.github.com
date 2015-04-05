@@ -172,11 +172,11 @@ window.brothers = [
         "zoom": 220
     },
     {
-        "aspirations": "Programming, Becoming a famous DJ.",
-        "course": "6",
+        "aspirations": "Use data and math to change the world.",
+        "course": "18C",
         "hometown": "Roselle, IL",
         "image": "andrew_hochstead.jpg",
-        "interests": "Club DJ, Volleyball",
+        "interests": "Data, Club DJing, Sand volleyball",
         "name": "Andrew Hochstadt",
         "year": 2016,
         "left": 0,
