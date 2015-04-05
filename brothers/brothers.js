@@ -389,4 +389,28 @@ window.brothers = [
         "top": 0,
         "zoom": 220   
     },
+    {
+        "aspirations": "Being ridiculously rich",
+        "course": "6 and 15",
+        "hometown": "Beirut, Lebanon",
+        "image": "manjot_sangha.png",
+        "interests": "Skiing and soccer",
+        "name": "Tarek Mansour",
+        "year": 2018,
+        "left": 0,
+        "top": 0,
+        "zoom": 220   
+    },
+    {
+        "aspirations": "Play in the NFL",
+        "course": "6",
+        "hometown": "Toronto, Canada",
+        "image": "manjot_sangha.png",
+        "interests": "Being Canadian",
+        "name": "Manjot Sangha",
+        "year": 2018,
+        "left": 0,
+        "top": 0,
+        "zoom": 220   
+    },
 ];
