@@ -422,7 +422,7 @@ window.brothers = [
         "name": "Greg Cartagena",
         "year": 2018,
         "left": 0,
-        "top": 0,
+        "top": -30,
         "zoom": 220   
     },
 ];
