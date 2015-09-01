@@ -277,7 +277,7 @@ window.brothers = [
         "name": "Tarek Mansour",
         "year": 2018,
         "left": 0,
-        "top": -60,
+        "top": -80,
         "zoom": 220
     },
     {
