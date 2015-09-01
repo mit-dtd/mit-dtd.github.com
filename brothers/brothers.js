@@ -116,7 +116,7 @@ window.brothers = [
         "hometown": "New York, New York",
         "image": "qweef_wee.jpg",
         "interests": "Honesty, Bravery, Devotion, Vigor",
-        "name": "Githui Maina",
+        "name": "Wacira Maina",
         "year": 2016,
         "left": 0,
         "top": 0,
