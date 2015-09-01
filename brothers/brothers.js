@@ -278,7 +278,7 @@ window.brothers = [
         "year": 2018,
         "left": 0,
         "top": -40,
-        "zoom": 220   
+        "zoom": 180
     },
     {
         "aspirations": "Play in the NFL",
@@ -302,6 +302,6 @@ window.brothers = [
         "year": 2018,
         "left": 0,
         "top": -40,
-        "zoom": 220   
+        "zoom": 150
     },
 ];
