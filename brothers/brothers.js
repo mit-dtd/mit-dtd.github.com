@@ -50,18 +50,6 @@ window.brothers = [
         "zoom": 330
     },
     {
-        "aspirations": "To make computers think like us.",
-        "course": "6 & 9",
-        "hometown": "Baltimore, MD",
-        "image": "g_gomez.jpg",
-        "interests": "Programming, Music, DJing, Soccer",
-        "name": "Gerardo Gomez",
-        "year": 2016,
-        "left": 0,
-        "top": -20,
-        "zoom": 290
-    },
-    {
         "aspirations": "To work at a successful computer science company and make a difference in the world.",
         "course": "6",
         "hometown": "San Francisco, CA",
@@ -136,18 +124,6 @@ window.brothers = [
     },
     // 2017s
     {
-        "aspirations": "Get rich or die trying",
-        "course": "2",
-        "hometown": "Hong Kong",
-        "image": "anant_kappor.jpg",
-        "interests": "Robotics, Kickboxing, Scuba Diving",
-        "name": "Anant Kapoor",
-        "year": 2017,
-        "left": 0,
-        "top": 0,
-        "zoom": 220
-    },
-    {
         "aspirations": "To become the President of the US",
         "course": "16, 17",
         "hometown": "Greenwood Village, CO",
@@ -157,18 +133,6 @@ window.brothers = [
         "year": 2017,
         "left": 0,
         "top": 0,
-        "zoom": 220
-    },
-    {
-        "aspirations": "To work in a major pharmaceutical company synthesizing new medicine for an ever-changing world",
-        "course": "10B",
-        "hometown": "Silver Spring, Maryland",
-        "image": "orlando_arevalo.jpg",
-        "interests": "Traveling, Paintballing, Ice Hockey, Hanging out",
-        "name": "Orlando Arevalo",
-        "year": 2017,
-        "left": 0,
-        "top": -30,
         "zoom": 220
     },
     {
