@@ -350,7 +350,7 @@ window.brothers = [
         "name": "Malik Coville",
         "year": 2019,
         "left": 0,
-        "top": -50,
+        "top": 0,
         "zoom": 220
     },
     {
@@ -374,7 +374,7 @@ window.brothers = [
         "name": "John Clarke",
         "year": 2019,
         "left": 0,
-        "top": -50,
+        "top": 0,
         "zoom": 220
     },
     {
@@ -422,7 +422,7 @@ window.brothers = [
         "name": "Isaac Lutz",
         "year": 2019,
         "left": 0,
-        "top": -50,
+        "top": 0,
         "zoom": 220
     },
     {
@@ -446,7 +446,7 @@ window.brothers = [
         "name": "Talla Babou",
         "year": 2019,
         "left": 0,
-        "top": -50,
+        "top": 0,
         "zoom": 220
     },
     {
@@ -506,7 +506,7 @@ window.brothers = [
         "name": "Tim Henry",
         "year": 2019,
         "left": 0,
-        "top": -50,
+        "top": -120,
         "zoom": 220
     },
     {
