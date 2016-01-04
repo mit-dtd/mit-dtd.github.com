@@ -403,8 +403,8 @@ window.brothers = [
     },
     {
         "aspirations": "Hit the target (don't miss)",
-        "course": "",
-        "hometown": "",
+        "course": "6",
+        "hometown": "Syracuse, NY",
         "image": "ini_oguntola.jpg",
         "interests": "Stand-up comedy",
         "name": "Ini Oguntola",
