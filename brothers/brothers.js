@@ -323,7 +323,7 @@ window.brothers = [
         "hometown": "Peachtree City, Georgia",
         "image": "andre_curiel.jpg",
         "interests": "Golf, tennis, soccer, hanging out with friends",
-        "name": "Erick Friis",
+        "name": "Andre Curiel",
         "year": 2019,
         "left": 0,
         "top": -50,
